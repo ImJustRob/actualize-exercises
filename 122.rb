@@ -1,11 +1,11 @@
 # QUESTION 1
 # Write code that asks the user for their name, then asks for their favorite color, 
 # then prints out back to them their name and favorite color in a sentence.
-# puts "what is your name?"
-# name = gets.chomp
-# puts "what is your favorite color?"
-# color = gets.chomp
-# puts "HI " + name +" " + color + " is pretty nice"
+puts "what is your name?"
+name = gets.chomp
+puts "what is your favorite color?"
+color = gets.chomp
+puts "HI " + name +" " + color + " is pretty nice"
 
 
 # QUESTION 2
