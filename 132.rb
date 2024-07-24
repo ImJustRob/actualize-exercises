@@ -1,13 +1,13 @@
 # QUESTION 1
 # Finish annotating the code below.
 # Then run the code to see if the output matches your annotation.
-# word = "hi"           # 1
-# index = 0             # 2
-# while index < 2       # 3 6 9
-#   word = word + word  # 4 7
-#   index = index + 1   # 5 8
-# end
-# puts word                # 10
+word = "hi"           # 1
+index = 0             # 2
+while index < 2       # 3 6 9
+  word = word + word  # 4 7
+  index = index + 1   # 5 8
+end
+puts word                # 10
 
 # 1: word is "hi"
 # 2: word is "hi", index is 0
