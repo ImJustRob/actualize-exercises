@@ -5,13 +5,13 @@
 # prints 1 if the number is greater than 10, 
 # and prints 0 if the number is equal to 10.
 x = 8
-if x.to_i < 10
+  if x.to_i < 10
     puts -1
-    elsif x > 10
-        puts 1
-    else x = 10
-        puts 0
-    end
+  elsif x > 10
+    puts 1
+  else
+    puts 0
+  end
 
 # QUESTION 2
 # There are two mistakes with the code below. 
@@ -22,7 +22,7 @@ x = 100
 if x < 5
   puts 0
 elsif x < 100
-    puts 2
+  puts 2
 else
   puts 1
 end
