@@ -2,8 +2,8 @@
 # Write code to store a number in a variable called age. 
 # Then write an expression that prints true if the value of the variable age 
 # is less than or equal to 21, otherwise it prints false.
-# age = 30
-# puts age <= 21
+age = 30
+puts age <= 21
 
 # QUESTION 2
 # The code below is supposed to get a percent from the user, 
