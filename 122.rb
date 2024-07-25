@@ -1,11 +1,11 @@
 # QUESTION 1
 # Write code that asks the user for their name, then asks for their favorite color, 
 # then prints out back to them their name and favorite color in a sentence.
-puts "what is your name?"
-name = gets.chomp
-puts "what is your favorite color?"
-color = gets.chomp
-puts "HI " + name +" " + color + " is pretty nice"
+# puts "what is your name?"
+# name = gets.chomp
+# puts "what is your favorite color?"
+# color = gets.chomp
+# puts "HI " + name +" " + color + " is pretty nice"
 
 
 # QUESTION 2
@@ -17,7 +17,6 @@ puts "Please enter a number:"
 number = gets.chomp
 number = number.to_i
 doubled_number = number * 2
-puts "The doubled number is "
-puts doubled_number
+puts "The doubled number is " + doubled_number.to_s 
 # the problem is on line 17. number is string and it needed to be an integer so i had to add a line that converts the string into an integer.
-#also on line 20 i had to remove + double_number and add it to its own line because i would recieve an error message.
+#also on line 20 i had to make "the doubled number is" + doubled_number.to_s so i can covert the integer back into a string.
