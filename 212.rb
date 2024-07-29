@@ -2,10 +2,10 @@
 # Write code to store a number using a variable, then a string using a different variable.
 # Then add the two variables together (by converting the number to a string) and 
 # store the result in a third variable. Finally, print out the third variable.
-# x = 8
-# y = "rob"
-# z = x, y
-# puts z
+x = 8
+y = "rob"
+z = x, y
+puts z
 
 # QUESTION 2
 # The code below has a mistake in it. Run the code to see the error message,
