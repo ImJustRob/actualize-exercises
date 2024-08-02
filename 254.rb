@@ -5,17 +5,29 @@
 # Add a method called info that returns a string that describes the person's hobbies 
 #     in a user-friendly format. Make sure it works no matter how many hobbies a person has! 
 #     (You'll need to use a loop!)
-class Person
-    def initialize(first_name, last_name, hair_color, hobbies)
-      @first_name = first_name
-      @last_name = last_name
-      @hair_color = hair_color
-      @hobbies = hobbies
-    end
-  end
-  
-  person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"])
-  
+# class Person
+#     def initialize(first_name, last_name, hair_color, hobbies)
+#       @first_name = first_name
+#       @last_name = last_name
+#       @hair_color = hair_color
+#       @hobbies = hobbies
+#     end
+#   def email
+#     return @first_name + @last_name 
+#    end
+#    def info
+#     result = []
+#     index = 0
+#     while index < @hobbies.length
+#         result << @hobbies[index]
+#         index = index + 1
+#     end
+#     return result
+#    end
+# end
+#   person = Person.new("Bob", "Jones", "pink", ["basketball", "chess", "phone tag"])
+#     puts "the persons email is #{person.email}@gmail.com"
+#     puts "these are the persons hobbies #{person.info}"
   
   # QUESTION 2
   # The code below crashes when it is run.
@@ -32,6 +44,6 @@ class Person
     end
   end
   
-  product = Product.new("Table", 500, "Solid oak") # FIX THIS LINE
+  product = Product.new({"name" => "Table", "price"  => 500, "description" => "Solid oak"}) # FIX THIS LINE
   puts "The product's name is #{product.name}."
-  
+  #the error is basically saying youre giving it 3 thing to output but the code should only be outputting 1 thing.
