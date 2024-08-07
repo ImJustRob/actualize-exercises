@@ -14,10 +14,13 @@
 
 puts "Enter a single word"
 word = gets.chomp
+p word
 array = word.split(//)
 array.push(array[0])
+p array
 array.shift()
 array.push("ay")
+p array
 p array.join()
 
 
