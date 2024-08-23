@@ -1,0 +1,23 @@
+body {
+max-width: 50em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+line-height: 1.5em;
+padding: 1em 1em;
+}
+h3 {
+line-height: 1.5em;
+padding: 1em 1em; 
+}
+header {
+    background-image: url(https://t3.ftcdn.net/jpg/06/33/00/42/360_F_633004264_b6ZuRQZYAsZIEYfWdY15EAOiaG4ZJIbn.jpg);
+    background-size: cover;
+
+}
+header h1{
+    color: white;
+}
+header p{
+    color: white;
+}
